@@ -3,17 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Nevernever</title>
+  <title>lua和c语言的交互总结 | Nevernever</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="alone coder">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Nevernever">
-<meta property="og:url" content="http://rotonlin.cn/index.html">
+  <meta name="description" content="接触lua也有段时间，是时候慢慢深入了解下这门语言的精华了，顺便科普下lua这门语言。
+
+lua设计目的是为了嵌入应用程序中，从而为应用程序提供灵活的扩展和定制功能。Lua由标准C编写而成，几乎在所有操作系统和平台上都可以编译，运行。Lua并没有提供强大的库，这是由它的定位决定的。Lua脚本可以很容易的被C/C++ 代码调用，也可以反过来调用C/C++的函数，这使得Lua在应用程序中可以被广泛应用">
+<meta property="og:type" content="article">
+<meta property="og:title" content="lua和c语言的交互总结">
+<meta property="og:url" content="http://rotonlin.cn/2015/10/29/lua-c/index.html">
 <meta property="og:site_name" content="Nevernever">
-<meta property="og:description" content="alone coder">
+<meta property="og:description" content="接触lua也有段时间，是时候慢慢深入了解下这门语言的精华了，顺便科普下lua这门语言。
+
+lua设计目的是为了嵌入应用程序中，从而为应用程序提供灵活的扩展和定制功能。Lua由标准C编写而成，几乎在所有操作系统和平台上都可以编译，运行。Lua并没有提供强大的库，这是由它的定位决定的。Lua脚本可以很容易的被C/C++ 代码调用，也可以反过来调用C/C++的函数，这使得Lua在应用程序中可以被广泛应用">
+<meta property="og:updated_time" content="2015-10-29T18:49:42.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Nevernever">
-<meta name="twitter:description" content="alone coder">
+<meta name="twitter:title" content="lua和c语言的交互总结">
+<meta name="twitter:description" content="接触lua也有段时间，是时候慢慢深入了解下这门语言的精华了，顺便科普下lua这门语言。
+
+lua设计目的是为了嵌入应用程序中，从而为应用程序提供灵活的扩展和定制功能。Lua由标准C编写而成，几乎在所有操作系统和平台上都可以编译，运行。Lua并没有提供强大的库，这是由它的定位决定的。Lua脚本可以很容易的被C/C++ 代码调用，也可以反过来调用C/C++的函数，这使得Lua在应用程序中可以被广泛应用">
   
     <link rel="alternative" href="/atom.xml" title="Nevernever" type="application/atom+xml">
   
@@ -172,9 +179,7 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-lua-c" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-lua-c" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2015/10/29/lua-c/" class="article-date">
@@ -190,12 +195,23 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/10/29/lua-c/">lua和c语言的交互总结</a>
+    <h1 class="article-title" itemprop="name">
+      lua和c语言的交互总结
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lua-c/">lua c</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -234,99 +250,62 @@ HELLO LUA
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lua-c/">lua c</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2015/10/27/to-first/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">开始思考人生，写点雕虫小技</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
   
 </article>
 
 
-
-
-
-
-
-  
-    <article id="post-to-first" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/10/27/to-first/" class="article-date">
-  	<time datetime="2015-10-27T15:55:12.000Z" itemprop="datePublished">2015-10-27</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/10/27/to-first/">开始思考人生，写点雕虫小技</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="起源">起源</h2><hr>
-<p>偶然从小伙伴那发现hexo这么个玩意儿，小巧耐玩，感觉很赞，自己也能靠hexo搞个博客挂在git上，省心。这种文章写法和传统略微不同，使用的markdown格式，各种风骚的标题加分割线以及排版深得我心，就喜欢简单~</p>
-<p>外加考虑到自个已经老大不小，在IT行业摸爬滚打积累的东西挺多，经常会第一时间无从思索，脑子一片空白。仔细想想，经验什么的，还是写下来才靠谱，记下所学的同时，另外也可以换种心情唠唠嗑。是该花点时间改改我这个不写博客的“优点”了。</p>
-<h3 id="怎么开始">怎么开始</h3><p>正所谓万事开头难，也就先挂个第一篇（扯淡篇），刷个存在先。接下来写的也会比较杂，绝大部分是自己的即时经验所得，可以是关于游戏技术，或者是新发现，个人碰到的难题解决方案等。不管网上有没有，我得有，给自己提个醒，要是有幸能帮助他人也是极好的，还可以是自己学习某领域的探索过程，甚妙。</p>
-<h3 id="练练格式">练练格式</h3><p>刚玩markdown，先玩玩格式，以下内容毫无营养可以忽略不计。</p>
-<p><strong>link test:</strong></p>
-<ul>
-<li><a href="http://www.gamersky.com/" target="_blank" rel="external">crazy gammer</a></li>
-</ul>
-<hr>
-<p><em>代码排版不错</em></p>
-<p>code insert <code>printf(&quot;hello markdown&quot;)</code> </p>
-<p>code test</p>
-<p>来个a+b<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span><span class="string">&lt;cstring&gt;</span></span></span><br><span class="line">	</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line">   	<span class="keyword">int</span> a,b;</span><br><span class="line">   	<span class="keyword">while</span>(<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;a,&amp;b)!=EOF)</span><br><span class="line">   	&#123;</span><br><span class="line">       	__asm</span><br><span class="line">       	&#123;</span><br><span class="line">            mov EAX,a</span><br><span class="line">            mov EBX,b</span><br><span class="line">            add EAX,EBX</span><br><span class="line">            mov a,EAX</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,a);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/扯淡/">扯淡</a></li></ul>
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
 
 
 
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="lua-c" data-title="lua和c语言的交互总结" data-url="http://rotonlin.cn/2015/10/29/lua-c/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"roton"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
 
 
 
 
-  
-  
 </div>
       <footer id="footer">
   <div class="outer">
@@ -350,8 +329,8 @@ HELLO LUA
 		fancybox: true,
 		mathjax: true,
 		animate: true,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
